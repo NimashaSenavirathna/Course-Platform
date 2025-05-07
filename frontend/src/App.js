@@ -23,7 +23,6 @@ const App = () => {
   };
 
   return (
-    <Router>
       <div style={{ maxWidth: '600px', margin: 'auto' }}>
         <h2>      </h2>
         <PostForm onAdd={handleAdd} />
