@@ -42,7 +42,7 @@ const PostForm = ({ onAdd }) => {
                     color: '#333',
                 }}
             >
-                Create Post
+                Create Posts
             </h3>
 
             <input
@@ -64,7 +64,7 @@ const PostForm = ({ onAdd }) => {
             />
 
             <textarea
-                placeholder="What's on your mind?"
+                placeholder="Let's share your thoughts"
                 value={content}
                 onChange={e => setContent(e.target.value)}
                 required
